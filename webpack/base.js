@@ -63,6 +63,7 @@ module.exports = {
                   hack: `true; @import "${require.resolve('antd/es/style/themes/default.less')}"; @import "${path.resolve(__dirname, '../src/app/styles/variables.less')}";`,
                 },
                 javascriptEnabled: true,
+                quietDeprecations: true,
               },
             },
           },
